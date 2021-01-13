@@ -1,0 +1,55 @@
+/*Class footer */
+footer{
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 100px;
+}
+.footer_hr{
+    border: solid white 1px;
+    margin-top: 20px;
+}
+.footer_menu{
+    height: 10px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.footer_menu_para{
+    height: 15px;
+    width: 40px;
+}
+
+.footer_menu_para--modif{
+    margin-left: 10px;
+}
+.footer_menu_para--modif_contact{
+    width: 50px;
+    margin-right: 50px;
+}
+@media screen and (min-width: 950px){
+    .footer_menu{
+        margin-left: 20%;
+    }
+    .footer_menu_para1, .footer_menu_para2, .footer_menu_para3, .footer_menu_para4{
+        font-size: 15px;
+    }
+    .footer_menu_para1{
+        position: relative;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    .footer_menu_para--modif_contact{
+        width: 200px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 950px){
+    .footer_menu{
+        margin-left: 30%;
+    }
+}
+
